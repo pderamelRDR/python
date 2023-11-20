@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pderamelRDR_python_1700478873807-push-trigger-input-set
+  identifier: Build_pderamelRDR_python_1700478873807pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: pythpm
+  pipeline:
+    identifier: Build_pderamelRDR_python_1700478873807
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
