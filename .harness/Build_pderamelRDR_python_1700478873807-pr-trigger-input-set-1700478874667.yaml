@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pderamelRDR_python_1700478873807-pr-trigger-input-set
+  identifier: Build_pderamelRDR_python_1700478873807prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: pythpm
+  pipeline:
+    identifier: Build_pderamelRDR_python_1700478873807
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
